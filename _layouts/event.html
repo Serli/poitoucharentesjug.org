@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+{% assign speakers_ids = page.speakers | split: "," %}
+{% if speakers_ids.size > 1 %}
+<h2>Speakers</h2>
+{% else %}
+<h2>Speaker</h2>
+{% endif %}
+{% for speaker in site.speakers %}
+    {% if speakers_ids contains speaker.id %}
+    <h3>{{ speaker.name }}</h3>
+    <p>
+        <a href="https://twitter.com/{{speaker.twitter_id}}" target="_blank" rel="noreferrer noopener">@{{speaker.twitter_id}}</a>
+    </p>
+    {% capture speaker_photo_url %}{{ "/assets/images/speakers/" }}{{ speaker.photo }}{% endcapture %}
+    <img class="img-speaker img-thumbnail" src="{{ speaker_photo_url | relative_url }}" alt="{{ speaker.name }}" />
+    <div>{{ speaker.content | markdownify }}</div>
+    {% endif %}
+{% endfor %}
+
+<h2>Informations pratiques</h2>
+
+<p>
+    La soirée sera suivie d'un buffet offert par SERLI, qui sera l'occasion d'échanges avec nos speakers.
+</p>
+
+<p>Merci de s'inscrire en envoyant un mail à <a href="mailto:poitoucharentesjug@gmail.com">poitoucharentesjug@gmail.com</a>.
+    <ul>
+        <li>Date et heure : {{ page.date | date: "%A %d %B %Y" | replace:"January","janvier" | replace:"February","février" | replace:"March","mars" | replace:"April","avril" | replace:"May","mai" | replace:"June","juin" | replace:"July","juillet" | replace:"August","août"| replace:"September","septembre" | replace:"October","octobre" | replace:"november","Novembre" | replace:"December","décembre" | replace:"Monday","lundi" | replace:"Tuesday","mardi" | replace:"Wednesday","mercredi" | replace:"Thursday","jeudi" | replace:"Friday","vendredi" | replace:"Saturday","samedi" | replace:"Sunday","dimanche" }}</li>
+        <li>Lieu : <a href="{{ page.place_url }}" target="_blank" rel="noreferrer noopener">{{ page.place }}</a></li>
+    </ul>
+</p>

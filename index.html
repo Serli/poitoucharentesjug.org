@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+<h1>Bienvenue au Poitou-Charentes Java User Group !</h1>
+
+<div class="row">
+    <div class="col-12 col-md-1">
+        <img class="img-logo-home img-fluid" src="{{ "/assets/images/logo.png" | relative_url }}" alt="Logo" />
+    </div>
+    <div class="col-12 col-md-11">
+        <p>
+            Le Poitou-Charentes Java User Group permet aux acteurs et utilisateurs du langage Java de la région Poitou-Charentes (professionnels, communautés open source,universitaires, étudiants) de se rencontrer et d'échanger autour des technologies Java.
+        </p>
+        <p>
+            Chaque mois, une conférence est organisée autour de thèmes "terrain" ou "veille", avec des intervenants d'horizons divers : acteurs des communautés Open Source, éditeurs, entreprises utilisatrices, experts indépendants... Ces évènements donnent lieu à des échanges riches entre utilisateurs des technologies et acteurs de l'évolution de la plate-forme Java.
+        </p>
+        <p>
+            Les réunions sont ouvertes, gratuites et suivies d'un buffet qui permet de prolonger les discussions de façon informelle et conviviale. 
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 col-md-6">
+        <h2>Prochaines rencontres</h2>
+
+        {% assign future_events = site.posts | where_exp: "post", "post.date > site.time" %}
+        {% if future_events.size == 0 %}
+        <p>Aucune rencontre n'est programmée pour le moment...</p>
+        {% else %}
+        <ul>
+        {% for future_event in future_events %}
+            <li>
+                <a href="{{ future_event.url | relative_url }}">
+                    {{ future_event.title }}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+
+        <h2>Rencontres précédentes</h2>
+
+        {% assign past_events = site.posts | where_exp: "post", "post.date <= site.time" %}
+        <ul>
+        {% for past_event in past_events limit:10 %}
+            <li>
+                <a href="{{ past_event.url | relative_url }}">
+                    {{ past_event.title }}
+                </a>
+            </li>
+        {% endfor %}
+        </ul>
+
+        <a class="nav-link" href="/rencontres">Toutes les rencontres</a>
+    </div>
+    <div class="col-12 col-md-6">
+        <h2>Sponsors</h2>
+        
+        <a href="https://www.serli.com" target="_blank" rel="noreferrer noopener">
+            <img src="{{ "/assets/images/serli.png" | relative_url }}" alt="Serli" />
+        </a>
+
+        <h2>Partenaires</h2>
+
+        <a href="https://www.jetbrains.com/" target="_blank" rel="noreferrer noopener">
+            <img src="{{ "/assets/images/jetbrains.gif" | relative_url }}" alt="Jetbrains" />
+        </a>
+    </div>
+</div>
