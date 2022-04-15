@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="h-100">
 
 <head>
     <meta charset="utf-8">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{ "/assets/styles/main.css" | relative_url }}">
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
@@ -35,11 +35,19 @@
         </div>
     </nav>
 
-    <main>
+    <main class="flex-shrink-0 pt-3">
         <div id="main-container" class="container">
             {{ content }}
         </div>
     </main>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <a href="https://twitter.com/poitoujug" target="_blank" rel="noreferrer noopener" title="Twitter">Twitter</a>
+            <a href="https://www.youtube.com/channel/UCPu5I8miuaXw0YICfEDg_NA" target="_blank" rel="noreferrer noopener" title="Youtube">Youtube</a>
+            <a href="https://github.com/Serli/poitoucharentesjug.org" target="_blank" rel="noreferrer noopener" title="Github">Github</a>
+        </div>
+    </footer>
 
     <script type="text/javascript" src="{{ "/assets/scripts/bootstrap/bootstrap.bundle.min.js" | relative_url }}"></script>
 
