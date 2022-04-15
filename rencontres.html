@@ -6,17 +6,31 @@ permalink: /rencontres/
 
 <h1>{{ page.title }}</h1>
 
-<p>
-    Les vidéos des présentations du JUG sont disponibles sur 
-    <a href="https://www.youtube.com/channel/UCPu5I8miuaXw0YICfEDg_NA" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-youtube"></i> notre chaîne Youtube</a>
-</p>
-
-<ul>
-{% for event in site.posts %}
-    <li>
-        <a href="{{ event.url | relative_url }}">
-            {{ event.title }}
-        </a>
-    </li>
-{% endfor %}
-</ul>
+<div class="row">
+    <div class="col-12 col-lg-7">
+        <ul>
+            {% for event in site.posts %}
+                <li>
+                    <a href="{{ event.url | relative_url }}">
+                        {{ event.title }}
+                    </a>
+                </li>
+            {% endfor %}
+            </ul>
+    </div>
+    <div class="col-12 col-lg-5" style="padding-left: 30px;;">
+        <p>
+            Les vidéos des présentations du JUG sont disponibles sur 
+            <a href="https://www.youtube.com/channel/UCPu5I8miuaXw0YICfEDg_NA" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-youtube"></i> notre chaîne Youtube</a>
+        </p>
+        
+        <iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PL4Z_Bm3ccVweSmVDF278Dm0OhwLJaSfX5" 
+                title="YouTube video player" 
+                width="560" height="315" 
+                style="max-width: 100%;"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    </div>
+</div>
