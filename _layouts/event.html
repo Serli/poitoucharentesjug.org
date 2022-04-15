@@ -23,9 +23,11 @@ layout: default
                 <div class="col-12 col-lg-3">
                     {% capture speaker_photo_url %}{{ "/assets/images/speakers/" }}{{ speaker.photo }}{% endcapture %}
                     <img class="img-speaker img-thumbnail" src="{{ speaker_photo_url | relative_url }}" alt="{{ speaker.name }}" />
+                    {% if speaker.twitter_id %}
                     <p>
-                        <a href="https://twitter.com/{{speaker.twitter_id}}" target="_blank" rel="noreferrer noopener">@{{speaker.twitter_id}}</a>
+                        <i class="fa-brands fa-twitter"></i> <a href="https://twitter.com/{{speaker.twitter_id}}" target="_blank" rel="noreferrer noopener">@{{speaker.twitter_id}}</a>
                     </p>
+                    {% endif %}
                 </div>
                 <div class="col-12 col-lg-9">
                     {{ speaker.content | markdownify }}
