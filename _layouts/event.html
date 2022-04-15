@@ -2,64 +2,63 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-
 <div class="row">
     <div class="col-12 col-lg-7">
 
+        <h1>{{ page.title }}</h1>
+        
         {{ content }}
         
+        <hr class="mt-4" style="width: 60%; margin: 0 auto;"/>
+
         {% assign speakers_ids = page.speakers | split: "," %}
-        {% if speakers_ids.size > 1 %}
-        <h2>Speakers</h2>
-        {% else %}
-        <h2>Speaker</h2>
-        {% endif %}
-        
         {% for speaker in site.speakers %}
             {% if speakers_ids contains speaker.id %}
-            <h3>{{ speaker.name }}</h3>
-            <div class="row">
-                <div class="col-12 col-lg-3">
+                <div class="mt-4">
+                    <h3>{{ speaker.name }}</h3>
                     {% capture speaker_photo_url %}{{ "/assets/images/speakers/" }}{{ speaker.photo }}{% endcapture %}
-                    <img class="img-speaker img-thumbnail" src="{{ speaker_photo_url | relative_url }}" alt="{{ speaker.name }}" />
-                    {% if speaker.twitter_id %}
-                    <p>
-                        <i class="fa-brands fa-twitter"></i> <a href="https://twitter.com/{{speaker.twitter_id}}" target="_blank" rel="noreferrer noopener">@{{speaker.twitter_id}}</a>
-                    </p>
-                    {% endif %}
+                    <div>
+                        <div class="float-start img-thumbnail" style="margin-right: 15px;;">
+                            <img class="img-speaker" src="{{ speaker_photo_url | relative_url }}" alt="{{ speaker.name }}" />
+                            {% if speaker.twitter_id %}
+                            <div class="text-center">
+                                <a href="https://twitter.com/{{speaker.twitter_id}}" target="_blank" rel="noreferrer noopener">@{{speaker.twitter_id}}</a>
+                            </div>
+                            {% endif %}
+                        </div>
+                        {{ speaker.content | markdownify }}
+                    </div>
                 </div>
-                <div class="col-12 col-lg-9">
-                    {{ speaker.content | markdownify }}
-                </div>
-            </div>
             {% endif %}
         {% endfor %}
         
     </div>
 
-    <div class="col-12 col-lg-5">
+    <div class="col-12 col-lg-5" style="padding-left: 40px;">
         {% for place in site.places %}
             {% if place.id == page.place %}
              {% assign event_place = place %}
             {% endif %}
         {% endfor %}
-        <h2>Informations pratiques</h2>
-        <p>
-            <ul>
-                <li>Date et heure : {{ page.date | date: "%A %d %B %Y" | replace:"January","janvier" | replace:"February","février" | replace:"March","mars" | replace:"April","avril" | replace:"May","mai" | replace:"June","juin" | replace:"July","juillet" | replace:"August","août"| replace:"September","septembre" | replace:"October","octobre" | replace:"november","Novembre" | replace:"December","décembre" | replace:"Monday","lundi" | replace:"Tuesday","mardi" | replace:"Wednesday","mercredi" | replace:"Thursday","jeudi" | replace:"Friday","vendredi" | replace:"Saturday","samedi" | replace:"Sunday","dimanche" }}</li>
-                <li>Lieu : {{ event_place.name }} <a href="{{ event_place.address_url }}" target="_blank" rel="noreferrer noopener">{{ event_place.address }}</a></li>
-            </ul>
-        </p>
-        <p>
-            Merci de vous inscrire en envoyant un mail à <a href="mailto:poitoucharentesjug@gmail.com">poitoucharentesjug@gmail.com</a>
-        </p>
-        <p>
-            <a class="btn btn-primary" href="mailto:poitoucharentesjug@gmail.com">Je m'inscris !</a>
-        </p>
-        <p>
-            La soirée sera suivie d'un buffet offert par SERLI, qui sera l'occasion d'échanges avec nos speakers.
-        </p>
+        <div class="card mb-3">
+            <div class="card-body">
+                <h2>Informations pratiques</h2>
+                <p>
+                    <i class="fa-solid fa-calendar-days"></i> &nbsp;{{ page.date | date: "%A %d %B %Y" | replace:"January","janvier" | replace:"February","février" | replace:"March","mars" | replace:"April","avril" | replace:"May","mai" | replace:"June","juin" | replace:"July","juillet" | replace:"August","août"| replace:"September","septembre" | replace:"October","octobre" | replace:"november","Novembre" | replace:"December","décembre" | replace:"Monday","lundi" | replace:"Tuesday","mardi" | replace:"Wednesday","mercredi" | replace:"Thursday","jeudi" | replace:"Friday","vendredi" | replace:"Saturday","samedi" | replace:"Sunday","dimanche" }}
+                    <br/>
+                    <i class="fa-solid fa-location-dot"></i> &nbsp;{{ event_place.name }} - <a href="{{ event_place.address_url }}" target="_blank" rel="noreferrer noopener">{{ event_place.address }}</a>
+                </p>
+                <p>
+                    Merci de vous inscrire en envoyant un mail à <a href="mailto:poitoucharentesjug@gmail.com">poitoucharentesjug@gmail.com</a>
+                </p>
+                <p>
+                    <a class="btn btn-primary" href="mailto:poitoucharentesjug@gmail.com">Je m'inscris !</a>
+                </p>
+                <p>
+                    La soirée sera suivie d'un buffet offert par SERLI, qui sera l'occasion d'échanges avec nos speakers.
+                </p>
+            </div>
+        </div>
         {{ event_place.content }}
     </div>
 </div>
