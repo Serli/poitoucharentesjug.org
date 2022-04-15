@@ -12,9 +12,8 @@ Basé sur Jekyll : https://jekyllrb.com/
   * `title` :  mettre le titre de la rencontre, entre guillemets. Exemple : "Test Containers in action !"
   * `permalink` : mettre le lien permanent vers la rencontre. Exemple : `/rencontres/testcontainers-in-action`
   * `date` : mettre la date de la rencontre, au format `yyyy-mm-dd HH:MM:ss`. Exemple : `2022-06-09 18:30:00`
-  * `place` : mettre le lieu de la rencontre. Exemple : `Niort Tech - 12 avenue Jacques Bujault, 79000 Niort`
-  * `place_url` : mettre un lien Google Maps vers le lieu de la rencontre. Exemple : https://www.google.com/maps/place/NIORT+TECH/@46.3219417,-0.4609374,17z/data=!3m1!4b1!4m5!3m4!1s0x4807313eb267f751:0xc3ee5bdeb766eff4!8m2!3d46.3220066!4d-0.4587022
-  * `speakers` : mettre le lien vers la **fiche du speaker** (lien vers le fichier du speaker dans le dossier `_speakers`, sans l'extension `.md`). Exemple : `/speakers/fedy-salah`
+  * `place` : mettre la référence du lieu de la rencontre (lien vers le fichier du speaker dans le dossier `_places_`, sans l'extension `.html`). Exemple : `/places/niort-tech`
+  * `speakers` : mettre la référence vers la **fiche du speaker** (lien vers le fichier du speaker dans le dossier `_speakers`, sans l'extension `.md`). Exemple : `/speakers/fedy-salah`
   * `published`: cet attribut permet de publier la rencontre. Mettre `true` pour que la rencontre soit publiée, ou bien `false` pour la laisser en "draft".
 * Écrire la description de la rencontre, au format markdown, après les attributs.
   * Pour tout connaître sur le markdown : https://www.markdownguide.org/cheat-sheet/

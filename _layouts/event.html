@@ -37,11 +37,16 @@ layout: default
     </div>
 
     <div class="col-12 col-lg-5">
+        {% for place in site.places %}
+            {% if place.id == page.place %}
+             {% assign event_place = place %}
+            {% endif %}
+        {% endfor %}
         <h2>Informations pratiques</h2>
         <p>
             <ul>
                 <li>Date et heure : {{ page.date | date: "%A %d %B %Y" | replace:"January","janvier" | replace:"February","février" | replace:"March","mars" | replace:"April","avril" | replace:"May","mai" | replace:"June","juin" | replace:"July","juillet" | replace:"August","août"| replace:"September","septembre" | replace:"October","octobre" | replace:"november","Novembre" | replace:"December","décembre" | replace:"Monday","lundi" | replace:"Tuesday","mardi" | replace:"Wednesday","mercredi" | replace:"Thursday","jeudi" | replace:"Friday","vendredi" | replace:"Saturday","samedi" | replace:"Sunday","dimanche" }}</li>
-                <li>Lieu : <a href="{{ page.place_url }}" target="_blank" rel="noreferrer noopener">{{ page.place }}</a></li>
+                <li>Lieu : {{ event_place.name }} <a href="{{ event_place.address_url }}" target="_blank" rel="noreferrer noopener">{{ event_place.address }}</a></li>
             </ul>
         </p>
         <p>
@@ -53,6 +58,6 @@ layout: default
         <p>
             La soirée sera suivie d'un buffet offert par SERLI, qui sera l'occasion d'échanges avec nos speakers.
         </p>
-        <iframe style="max-width: 100%;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2755.390462488029!2d-0.4587487000000001!3d46.3219417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4807313eb267f751%3A0xc3ee5bdeb766eff4!2sNIORT%20TECH!5e0!3m2!1sfr!2sfr!4v1650023689516!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        {{ event_place.content }}
     </div>
 </div>

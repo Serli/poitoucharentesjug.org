@@ -24,6 +24,7 @@ url: "https://www.poitoucharentesjug.org/"
 # Custom collections
 collections:
   - speakers
+  - places
 
 # Build settings
 future: true

@@ -3,8 +3,7 @@ layout: event
 title:  "Traçabilité d'une architecture distribuée avec NodeJS et MongoDB & Retour sur Code Story 2013"
 permalink: /rencontres/tracabilite-dune-architecture-distribuee
 date: 2013-05-28 18:30:00
-place: Pépinière d'entreprises du Niortais - 3 rue Archimède, 79000 Niort
-place_url: https://www.google.com/maps/place/P%C3%A9pini%C3%A8re+d'Entreprises+du+Niortais/@46.3105088,-0.4815484,17z/data=!3m1!4b1!4m5!3m4!1s0x48072f369b5e7c07:0x9111ea990ab2be7a!8m2!3d46.3105088!4d-0.4793597
+place: /places/pepiniere
 speakers: /speakers/sebastien-prunier-mosica,/speakers/jerome-creignou
 published: true
 ---
