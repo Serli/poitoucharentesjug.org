@@ -23,13 +23,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="{{ "/" | relative_url }}">Accueil</a>
+                            <a class="nav-link {% if '/' == page.url %}active{% endif %}" href="{{ "/" | relative_url }}">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ "/rencontres" | relative_url }}">Toutes les rencontres</a>
+                            <a class="nav-link {% if '/rencontres/' == page.url %}active{% endif %}" href="{{ "/rencontres" | relative_url }}">Toutes les rencontres</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ "/a-propos" | relative_url }}">À propos</a>
+                            <a class="nav-link {% if '/a-propos/' == page.url %}active{% endif %}" href="{{ "/a-propos" | relative_url }}">À propos</a>
                         </li>
                     </ul>
                 </div>
