@@ -1,5 +1,4 @@
 ---
-id: fedy-salah
 name: Fedy Salah
 photo: fedy-salah.jpg
 twitter_id: FedySalah

@@ -1,7 +1,6 @@
 ---
-id: sebastien-prunier
 name: Sébastien Prunier
-photo: sebastien-prunier.jpg
+photo: sebastien-prunier-serli.jpg
 twitter_id: sebprunier
 ---
 
