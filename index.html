@@ -23,7 +23,7 @@ layout: default
 
 <div class="row d-flex flex-column flex-md-row justify-content-md-between">
     <div class="col-12 col-md-8 p-3">
-        <h2>Prochaines rencontres</h2>
+        <h2>Prochaine rencontre</h2>
 
         {% assign future_events = site.posts | where_exp: "post", "post.date > site.time" %}
         {% if future_events.size == 0 %}
@@ -53,7 +53,7 @@ layout: default
         {% endfor %}
         </ul>
 
-        <a class="nav-link" href="{{ "/rencontres" | relative_url }}">Toutes les rencontres</a>
+        <a href="{{ "/rencontres" | relative_url }}"><i class="fa-solid fa-angles-right"></i> Toutes les rencontres</a>
     </div>
     <div class="col-12 col-md-4 p-3 text-center">
         <div class="card">
