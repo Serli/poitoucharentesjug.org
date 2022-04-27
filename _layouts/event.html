@@ -47,6 +47,27 @@ layout: default
                     <i class="fa-solid fa-calendar-days"></i> &nbsp;{{ page.date | date: "%A %d %B %Y" | replace:"January","janvier" | replace:"February","février" | replace:"March","mars" | replace:"April","avril" | replace:"May","mai" | replace:"June","juin" | replace:"July","juillet" | replace:"August","août"| replace:"September","septembre" | replace:"October","octobre" | replace:"november","Novembre" | replace:"December","décembre" | replace:"Monday","lundi" | replace:"Tuesday","mardi" | replace:"Wednesday","mercredi" | replace:"Thursday","jeudi" | replace:"Friday","vendredi" | replace:"Saturday","samedi" | replace:"Sunday","dimanche" }}
                     <br/>
                     <i class="fa-solid fa-location-dot"></i> &nbsp;{{ event_place.name }} - <a href="{{ event_place.address_url }}" target="_blank" rel="noreferrer noopener">{{ event_place.address }}</a>
+                    {{ page.date | date: "%:z" }}
+                    <div class="atcb" style="display:none;">
+                        {
+                            "name":"[Poitou JUG] {{ page.title }}",
+                            "startDate":"{{ page.date | date: "%Y-%m-%d" }}",
+                            "endDate":"{{ page.date | date: "%Y-%m-%d" }}",
+                            "startTime":"{{ page.date | date: "%H:%M" }}",
+                            "endTime":"{{ page.date | date: '%s' | plus: 7200 | date: "%H:%M" }}",
+                            "location":"{{ event_place.name }}",
+                            "label":"Ajouter au calendrier",
+                            "options":[
+                            "Google",
+                            "Apple",
+                            "iCal",
+                            "Microsoft365",
+                            "MicrosoftTeams",
+                            "Outlook.com"
+                            ],
+                            "timeZoneOffset":"{{ page.date | date: "%:z" }}"
+                        }
+                        </div>
                 </p>
                 <p>
                     Merci de vous inscrire en envoyant un mail à <a href="mailto:poitoucharentesjug@gmail.com">poitoucharentesjug@gmail.com</a>

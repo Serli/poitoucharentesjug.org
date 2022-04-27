@@ -2,7 +2,7 @@
 layout: event
 title:  "Traçabilité d'une architecture distribuée avec NodeJS et MongoDB & Retour sur Code Story 2013"
 permalink: /rencontres/tracabilite-dune-architecture-distribuee
-date: 2013-05-28 18:30:00
+date: 2013-05-28 18:30:00 +0200
 place: /places/pepiniere
 speakers: /speakers/sebastien-prunier-mosica,/speakers/jerome-creignou
 published: true

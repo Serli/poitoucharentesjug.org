@@ -2,7 +2,7 @@
 layout: event
 title:  "Security is also the developer's job !"
 permalink: /rencontres/security-is-also-the-developers-job
-date: 2019-04-11 18:30:00
+date: 2019-04-11 18:30:00 +0200
 place: /places/niort-tech
 speakers: /speakers/fedy-salah
 published: true
