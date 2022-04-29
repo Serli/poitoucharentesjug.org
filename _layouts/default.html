@@ -27,7 +27,7 @@
                             <a class="nav-link {% if '/' == page.url %}active{% endif %}" href="{{ "/" | relative_url }}">Accueil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link {% if '/rencontres/' == page.url %}active{% endif %}" href="{{ "/rencontres" | relative_url }}">Toutes les rencontres</a>
+                            <a class="nav-link {% if page.url contains '/rencontres/' %}active{% endif %}" href="{{ "/rencontres" | relative_url }}">Toutes les rencontres</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://www.jugsummercamp.org" target="_blank" rel="noreferrer noopener">JugSummerCamp</a>
