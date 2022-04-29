@@ -12,7 +12,7 @@ permalink: /rencontres/
             {% for event in site.posts %}
                 <li>
                     <a href="{{ event.url | relative_url }}">
-                        {{ event.title }}
+                        [{{ event.date | date: "%d/%m/%Y" }}] {{ event.title }}
                     </a>
                 </li>
             {% endfor %}

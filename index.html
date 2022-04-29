@@ -33,7 +33,7 @@ layout: default
         {% for future_event in future_events %}
             <li>
                 <a href="{{ future_event.url | relative_url }}">
-                    {{ future_event.title }}
+                    [{{ future_event.date | date: "%d/%m/%Y" }}] {{ future_event.title }}
                 </a>
             </li>
         {% endfor %}
@@ -47,7 +47,7 @@ layout: default
         {% for past_event in past_events limit:10 %}
             <li>
                 <a href="{{ past_event.url | relative_url }}">
-                    {{ past_event.title }}
+                    [{{ past_event.date | date: "%d/%m/%Y" }}] {{ past_event.title }}
                 </a>
             </li>
         {% endfor %}
