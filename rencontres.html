@@ -10,15 +10,17 @@ permalink: /rencontres/
     <div class="col-12 col-lg-7">
         <ul>
             {% for event in site.posts %}
+                {% assign speakers_ids = event.speakers | split: "," %}
+                {% assign speakers = site.speakers | where_exp:"speaker", "speakers_ids contains speaker.id" %}
                 <li>
                     <a href="{{ event.url | relative_url }}">
-                        [{{ event.date | date: "%d/%m/%Y" }}] {{ event.title }}
+                        [{{ event.date | date: "%d/%m/%Y" }}] {{ event.title }} par {{ speakers | map: "name" | join: " et "}}
                     </a>
                 </li>
             {% endfor %}
             </ul>
     </div>
-    <div class="col-12 col-lg-5" style="padding-left: 30px;;">
+    <div class="col-12 col-lg-5" style="padding-left: 30px;">
         <p>
             Les vidéos des présentations du JUG sont disponibles sur 
             <a href="https://www.youtube.com/channel/UCPu5I8miuaXw0YICfEDg_NA" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-youtube"></i> notre chaîne Youtube</a>
@@ -26,7 +28,7 @@ permalink: /rencontres/
         
         <iframe src="https://www.youtube-nocookie.com/embed/videoseries?list=PL4Z_Bm3ccVweSmVDF278Dm0OhwLJaSfX5" 
                 title="YouTube video player" 
-                width="560" height="315" 
+                width="560" height="315"
                 style="max-width: 100%;"
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 

@@ -35,7 +35,7 @@ Pour créer la fiche d'un speaker :
 
 ### Cas d'une rencontre avec plusieurs speakers
 
-S'il y a plusieurs speaker, mettre la liste des speakers **séparé par des virgules** dans l'attribut `speakers`.
+S'il y a plusieurs speakers, mettre la liste des speakers **séparés par des virgules** dans l'attribut `speakers`.
 
 Exemple : `speakers: /speakers/fedy-salah,/speakers/guillaume-soldera`
 
