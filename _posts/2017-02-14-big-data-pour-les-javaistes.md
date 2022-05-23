@@ -1,6 +1,6 @@
 ---
 layout: event
-title:  "Big Data pour les javaistes et le reste d'entre nous"
+title: "Big Data pour les javaistes et le reste d'entre nous"
 permalink: /rencontres/big-data-pour-les-javaistes
 date: 2017-02-14 18:30:00 +0200
 place: /places/pepiniere
