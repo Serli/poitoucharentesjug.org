@@ -5,6 +5,7 @@ permalink: /rencontres/les-cookies-http
 date: 2018-05-31 18:30:00 +0200
 place: /places/centre-du-guesclin
 speakers: /speakers/hubert-sablonniere
+youtube_id: w2LeZpxc920
 published: true
 ---
 

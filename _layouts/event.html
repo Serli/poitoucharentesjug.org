@@ -8,6 +8,16 @@ layout: default
         <h1>{{ page.title }}</h1>
         
         {{ content }}
+
+        {% if page.youtube_id %}
+        <iframe src="https://www.youtube.com/embed/{{ page.youtube_id }}" 
+                title="YouTube video player" 
+                class="youtube-video"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+        {% endif %}
         
         <hr class="mt-4" style="width: 60%; margin: 0 auto;"/>
 
