@@ -8,6 +8,16 @@ layout: default
         <h1>{{ page.title }}</h1>
         
         {{ content }}
+
+        {% if page.youtube_id %}
+        <iframe src="https://www.youtube.com/embed/{{ page.youtube_id }}" 
+                title="YouTube video player" 
+                class="youtube-video"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+        {% endif %}
         
         <hr class="mt-4" style="width: 60%; margin: 0 auto;"/>
 
@@ -19,10 +29,17 @@ layout: default
                 <h3>{{ speaker.name }}</h3>
                 <div>
                     <div class="float-start img-thumbnail" style="margin-right: 15px;">
-                        <img class="speaker-img" src="{{ speaker_photo_url | relative_url }}" alt="{{ speaker.name }}" />
+                        <div class="text-center">
+                            <img class="speaker-img" src="{{ speaker_photo_url | relative_url }}" alt="{{ speaker.name }}" />
+                        </div>
                         {% if speaker.twitter_id %}
                         <div class="text-center">
-                            <a href="https://twitter.com/{{speaker.twitter_id}}" target="_blank" rel="noreferrer noopener">@{{speaker.twitter_id}}</a>
+                            <i class="fa-brands fa-twitter"></i> <a href="https://twitter.com/{{speaker.twitter_id}}" target="_blank" rel="noreferrer noopener">{{speaker.twitter_id}}</a>
+                        </div>
+                        {% endif %}
+                        {% if speaker.github_id %}
+                        <div class="text-center">
+                            <i class="fa-brands fa-github"></i> <a href="https://github.com/{{speaker.github_id}}" target="_blank" rel="noreferrer noopener">{{speaker.github_id}}</a>
                         </div>
                         {% endif %}
                     </div>

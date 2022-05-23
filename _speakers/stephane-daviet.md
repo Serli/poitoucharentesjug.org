@@ -1,7 +1,6 @@
 ---
 name: Stéphane Daviet
 photo: stephane-daviet.jpg
-twitter_id: 
 github_id: stephanedaviet
 ---
 
