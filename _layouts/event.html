@@ -30,7 +30,11 @@ layout: default
                 <div>
                     <div class="float-start img-thumbnail" style="margin-right: 15px;">
                         <div class="text-center">
+                            {% if speaker.photo %}
                             <img class="speaker-img" src="{{ speaker_photo_url | relative_url }}" alt="{{ speaker.name }}" />
+                            {% else %}
+                            <img class="speaker-img" src="{{ "/assets/images/speakers/default.png" | relative_url }}" alt="{{ speaker.name }}" />
+                            {% endif %}
                         </div>
                         {% if speaker.twitter_id %}
                         <div class="text-center">
