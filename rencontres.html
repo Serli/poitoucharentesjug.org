@@ -14,7 +14,7 @@ permalink: /rencontres/
                 {% assign speakers = site.speakers | where_exp:"speaker", "speakers_ids contains speaker.id" %}
                 <li>
                     <a href="{{ event.url | relative_url }}">
-                        [{{ event.date | date: "%d/%m/%Y" }}] {{ event.title }} par {{ speakers | map: "name" | join: " et "}}
+                        <code>[{{ event.date | date: "%d/%m/%Y" }}]</code> <strong>{{ event.title }}</strong> par {{ speakers | map: "name" | join: " & "}}
                     </a>
                 </li>
             {% endfor %}

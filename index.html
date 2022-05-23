@@ -35,7 +35,7 @@ layout: default
             {% assign speakers = site.speakers | where_exp:"speaker", "speakers_ids contains speaker.id" %}
             <li>
                 <a href="{{ future_event.url | relative_url }}">
-                    [{{ future_event.date | date: "%d/%m/%Y" }}] {{ future_event.title }} par {{ speakers | map: "name" | join: " et "}}
+                    <code>[{{ future_event.date | date: "%d/%m/%Y" }}]</code> <strong>{{ future_event.title }}</strong> par {{ speakers | map: "name" | join: " et "}}
                 </a>
             </li>
         {% endfor %}
@@ -46,12 +46,12 @@ layout: default
 
         {% assign past_events = site.posts | where_exp: "post", "post.date <= site.time" %}
         <ul>
-        {% for past_event in past_events limit:10 %}
+        {% for past_event in past_events limit:7 %}
             {% assign speakers_ids = past_event.speakers | split: "," %}
             {% assign speakers = site.speakers | where_exp:"speaker", "speakers_ids contains speaker.id" %}
             <li>
                 <a href="{{ past_event.url | relative_url }}">
-                    [{{ past_event.date | date: "%d/%m/%Y" }}] {{ past_event.title }} par {{ speakers | map: "name" | join: " et "}}
+                    <code>[{{ past_event.date | date: "%d/%m/%Y" }}]</code> <strong>{{ past_event.title }}</strong> par {{ speakers | map: "name" | join: " & "}}
                 </a>
             </li>
         {% endfor %}
