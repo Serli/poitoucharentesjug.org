@@ -8,17 +8,37 @@ permalink: /rencontres/
 
 <div class="row">
     <div class="col-12 col-lg-7">
-        <ul>
-            {% for event in site.posts %}
-                {% assign speakers_ids = event.speakers | split: "," %}
-                {% assign speakers = site.speakers | where_exp:"speaker", "speakers_ids contains speaker.id" %}
-                <li>
-                    <a href="{{ event.url | relative_url }}">
-                        <code>[{{ event.date | date: "%d/%m/%Y" }}]</code> <strong>{{ event.title }}</strong> par {{ speakers | map: "name" | join: " & "}}
-                    </a>
-                </li>
-            {% endfor %}
+        {% comment %}
+        Inspiré de : https://stackoverflow.com/questions/19086284/jekyll-liquid-templating-how-to-group-blog-posts-by-year#:~:text=You%20can%20also%20group%20by,%22%25B%20%25Y%22%20.&text=This%20is%20great%2C%20thank%20you!
+        {% endcomment %}
+        {% for event in site.posts  %}
+            {% capture this_year %}{{ event.date | date: "%Y" }}{% endcapture %}
+            {% capture next_year %}{{ event.previous.date | date: "%Y" }}{% endcapture %}
+
+            {% if forloop.first %}
+            <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+            <ul>
+            {% endif %}
+
+            {% assign speakers_ids = event.speakers | split: "," %}
+            {% assign speakers = site.speakers | where_exp:"speaker", "speakers_ids contains speaker.id" %}
+
+            <li>
+                <a href="{{ event.url | relative_url }}">
+                    <code>[{{ event.date | date: "%d/%m/%Y" }}]</code> <strong>{{ event.title }}</strong> par {{ speakers | map: "name" | join: " & "}}
+                </a>
+            </li>
+
+            {% if forloop.last %}
             </ul>
+            {% else %}
+                {% if this_year != next_year %}
+                </ul>
+                <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+                <ul>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
     </div>
     <div class="col-12 col-lg-5" style="padding-left: 30px;">
         <p>
