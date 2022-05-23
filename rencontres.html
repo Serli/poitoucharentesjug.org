@@ -25,7 +25,7 @@ permalink: /rencontres/
 
             <li>
                 <a href="{{ event.url | relative_url }}">
-                    <code>[{{ event.date | date: "%d/%m/%Y" }}]</code> <strong>{{ event.title }}</strong> par {{ speakers | map: "name" | join: " & "}}
+                    <span class="event-date">[{{ event.date | date: "%d/%m/%Y" }}]</span> <strong>{{ event.title }}</strong> par {{ speakers | map: "name" | join: " & "}}
                 </a>
             </li>
 
