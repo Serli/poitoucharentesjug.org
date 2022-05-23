@@ -16,9 +16,21 @@
     }
 }
 
+
 // Override bootstrap variables here
 $font-family-sans-serif:      "Open Sans",system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $primary: #024D6F;
 $body-bg: #f8f9fa;
 
 @import "bootstrap";
+
+@include media-breakpoint-up(lg) {
+    .info-event {
+        padding-left: 40px;
+    }
+}
+
+.info-place {
+    height: 450px;
+    width: 100%;
+}

@@ -32,7 +32,7 @@ layout: default
         {% endfor %}
     </div>
 
-    <div class="col-12 col-lg-5" style="padding-left: 40px;">
+    <div class="col-12 col-lg-5 info-event">
         {% assign place = site.places | where_exp:"place", "place.id == page.place" | first %}
         <div class="card mb-3">
             <div class="card-body">
