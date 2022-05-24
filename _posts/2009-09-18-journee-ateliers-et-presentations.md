@@ -14,7 +14,7 @@ Les deux ateliers de l'après-midi ont permis aux participants d'apprendre Eclip
 
 La soirée fut dédiée à 2 présentations. L'une portait sur JavaFX (avec un exemple ludique utilisant la wiimote !) et la seconde sur "Identité et portails Java : centralisation, fédération et propagation".
 
-**Ateliers de développement - Après midi**
+### Ateliers de développement - Après midi
 
 ***13h30-15h30 - Développement de Plugin Eclipse***
 
@@ -29,7 +29,7 @@ The goal of the Java API for RESTful Web Services (JAX-RS) is to provide a high-
 Atelier animé par Christophe Jollivet.
 
 
-**Conférences - Soirée**
+### Conférences - Soirée
 
 ***Présentation Java FX***
 
@@ -42,6 +42,3 @@ Dans cette présentation nous avons pu voir comment faire interagir simplement d
 Speakers : Laurent Ruaud et Vincent Michaud
 
 Les portails permettent à leurs utilisateurs de centraliser les informations en provenance de différentes sources. Cette information peut parfois nécessiter la connaissance de l'identité de l'utilisateur afin de sécuriser les accès ou de personnaliser le contenu. Cette présentation s'est penchée sur ces problématiques d'identité que l'on rencontre dans les portails et a illustré quelques solutions au travers de technologies telles que OpenID, CAS, Liferay ou JBoss eXo Portal.
-
-
-Les conférences étaient suivies d'un buffet offert par SERLI.

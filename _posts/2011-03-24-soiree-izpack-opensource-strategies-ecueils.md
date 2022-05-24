@@ -8,7 +8,7 @@ speakers: /speakers/julien-ponge
 published: true
 ---
 
-**IzPack**
+### IzPack
 
 La première impression est toujours la bonne, alors ne laissez pas les utilisateurs de votre dernière création logicielle s'en faire une mauvaise par la faute d'un processus d'installation et de configuration archaique !
 
@@ -23,7 +23,7 @@ Ce exposé balaiera les points suivants :
 
 Les démonstrations auront bien entendu lieu sans le moindre incident du direct.
 
-**Communautés opensource, stratégies et eccueils**
+### Communautés opensource, stratégies et eccueils
 
 IzPack a démarré comme un hobby dans une chambre d'étudiant, dans le seul but d'apprendre Java et de toucher du doigt l'opensource. Pourtant 10 ans après, ce projet est toujours actif, et il est utilisé par des acteurs majeurs de l'industrie.
 

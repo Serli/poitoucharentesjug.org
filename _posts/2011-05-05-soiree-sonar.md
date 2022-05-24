@@ -8,7 +8,7 @@ speakers: /speakers/olivier-gaudin,/speakers/bertrand-lefort,/speakers/frederic-
 published: true
 ---
 
-**Inspection Continue du code source avec Sonar - La chasse aux "7 péchés capitaux du développeur" peut commencer**
+### Inspection Continue du code source avec Sonar - La chasse aux "7 péchés capitaux du développeur" peut commencer
 
 Par Olivier Gaudin, SonarSource.
 
@@ -17,7 +17,7 @@ Le métier de développeur a fortement évolué au cours des 10 dernières anné
 Liens: [https://www.sonarsource.com](https://www.sonarsource.com)
 
 
-**Vous avez dit JAVA ?**
+### Vous avez dit JAVA ?
 
 Par Bertrand Lefort, MAIF et Frédéric Valin, MAIF.
 
@@ -27,13 +27,13 @@ Retour d'expérience sur le projet de remplacement de l'outil Aquaparc par l'out
  - Ce que nous ferons (avec SONAR)
 
 
-**Retour d'expérience sur la mise en place d'une démarche qualité à la MAAF**
+### Retour d'expérience sur la mise en place d'une démarche qualité à la MAAF
 
 Par Jérôme Creignou, MAAF.
 
 Présentation des raisons qui ont motivé la mise place d'une démarche autour de la qualité du code source à la MAAF, la méthodologie retenue, l'outillage sous-jacent, les pièges à éviter et présentera le bilan du projet ainsi que les prochaines étapes.
 
-**Qualimétrie des codes sources à la MACIF**
+### Qualimétrie des codes sources à la MACIF
 
 Par Thierry Daviet, MACIF.
 

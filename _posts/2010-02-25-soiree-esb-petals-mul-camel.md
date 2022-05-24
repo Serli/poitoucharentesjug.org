@@ -8,7 +8,7 @@ speakers: /speakers/gael-blondelle,/speakers/jacques-cayuela,/speakers/stephane-
 published: true
 ---
 
-**Petals ESB**
+### Petals ESB
 
 Speaker: Gaël Blondelle
 
@@ -16,7 +16,7 @@ Petals est l'ESB open source développé par Petals Link au sein du consortium O
 
 Gaël Blondelle, vice-pésident d'OW2, et CTO de Petals Link, présente les principes du produit, ainsi que différents cas d'usage en production allant de la plate-forme d'échange avec des partenaires à une véritable Architecture Orientée Services (SOA) transverse à un SI, en passant par des cas d'intégration inter-applications.
 
-**CAMEL**
+### CAMEL
 
 Speaker: Jacques Cayuela
 
@@ -24,7 +24,7 @@ Apache Camel est un framework d'intégration léger qui couvre les fonctions de 
 
 Au cours de cette présentation sont détaillés les aspects EIP (transformation, routage), connexion multi-protocoles puis finalement l'aspect dynamicité grâce à une couche OSGi enrichie avec le support des services de déploiement et de mise à jour à chaud, ces services complémentaires fournis par JOnAS permettent de fournir un socle d'intégration complet réalisant un pattern d'ESB léger.
 
-**Mule**
+### Mule
 
 Speaker: Stéphane Routhiau
 
