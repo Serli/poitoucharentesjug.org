@@ -17,3 +17,8 @@ Afin d'être tenu au courant des évènements organisés par JUG, inscrivez-vous
 Si vous souhaitez contribuer, contactez l'équipe d'organisation en écrivant à [team@poitoucharentesjug.org](mailto:team@poitoucharentesjug.org) ou venez nous rencontrer lors d'une soirée.
 
 _Jérôme Petit et Orianne Tisseuil, JUG leaders._
+
+
+<a href="https://community.java.net/jugs/" title="JUGs">
+    <img src="{{ "/assets/images/jug.png" | relative_url }}" alt="JUGs">
+</a>
