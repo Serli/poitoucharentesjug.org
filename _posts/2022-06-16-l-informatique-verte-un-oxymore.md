@@ -8,8 +8,6 @@ speakers: /speakers/stephane-daviet
 published: true
 ---
 
-L'informatique verte : un oxymore ?
-
 Pourquoi l'informatique ne peut être « verte » et comment nous pouvons atténuer notre empreinte environnementale.
 
 Parce qu'à la base, chaque opération informatique nécessite de l'énergie, toute production informatique a par essence un impact écologique. Il faut ajouter à cela l'impact de la production et du recyclage du matériel que nous utilisons ou, plus simplement, le notre lorsque nous nous rendons et exerçons notre métier sur nos lieux de travail.
