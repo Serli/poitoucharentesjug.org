@@ -8,11 +8,11 @@ speakers: /speakers/kevin-pollet,/speakers/mathieu-ancelin,/speakers/marian-mull
 published: true
 ---
 
-**Retours de Devoxx**
+### Retours de Devoxx
 
 Kévin et Mathieu nous feront un retour sur la 10ième édition de la conférence Devoxx qui a eu lieu la semaine dernière à Anvers.
 
-**GlassFish : Application versioning et rolling upgrade en haute disponibilité**
+### GlassFish : Application versioning et rolling upgrade en haute disponibilité
 
 Intervenant : Marian Muller
 

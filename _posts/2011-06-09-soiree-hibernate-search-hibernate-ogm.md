@@ -8,7 +8,7 @@ speakers: /speakers/emmanuel-bernard
 published: true
 ---
 
-**Hibernate Search: Recherche full-text pour les applications d'entreprise**
+### Hibernate Search: Recherche full-text pour les applications d'entreprise
 
 Hibernate Search permet à vos applications de faire des recherches à la Google sur votre base de données. Avec le montant d'informations accumulé de nos jours, rechercher et trouver rapidement les données est essentiel. Hibernate Search est un moteur de recherche full-text pour les application utilisant Hibernate Core en se focalisant sur la facilité d'utilisation et la performance.
 
@@ -22,7 +22,7 @@ Cette présentation parcourra les concepts de base d'Hibernate Search, comment l
 
 Une connaissance initiale d'Hibernate Search n'est pas nécessaire.
 
-**Hibernate OGM: JPA pour NoSQL**
+### Hibernate OGM: JPA pour NoSQL
 
 PaaS (Plate-forme as a Service), Cloud, elasticité. Ces mots font le buzz ces temps-ci. Mais le vrai challenge c'est comment et où stocker vos données. Dans un data grid pour bénéficier de la scalabilité? Via une API propriétaire? Est-ce que l'on pourrait utiliser une API familière? L'objectif d'Hibernate OGM est d'explorer comment réutiliser Java Persistence et son API familière pour persister les entités dans une base de données non relationnelle.
 

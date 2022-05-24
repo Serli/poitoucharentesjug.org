@@ -7,7 +7,7 @@ speakers: /speakers/charles-lefebvre,/speakers/jerome-benois
 published: true
 ---
 
-**Moteurs de règles**
+### Moteurs de règles
 
 L'utilisation des moteurs de règles est maintenant facilitée par l'existence de moteurs d'inférences développés en java. Ces technologies autrefois propriétaires, difficiles d'accès et en marge du SI sont dorénavant facilement intégrables grâce à des solutions simples, ouvertes et richement outillées.
 
@@ -15,7 +15,7 @@ Véritable plateforme orientée règles, JBoss Drools offre un kit complet d’o
 
 Au cours de cette session, Charles Lefebvre de la société Oxiane Aquitaine, présentera les fonctionnalités de cette solution open source et donnera quelques bon usages pour faciliter l’intégration d’une solution à base de règles au sein d’un système d’information.
 
-**DSL**
+### DSL
 
 Vous souhaitez formaliser le métier de vos applications, mais UML est trop générique, trop laxiste ou trop contraignant. Vous souhaitez obtenir plus d'expressivité, de contrôle et de simplicité avec un langage spécifiquement adapté à votre besoin aussi simple ou complexe que vous le souhaitez ! Les DSL ou Domain Specific Language (Langage Spécifiques au métier) sont tout ceci et bien plus encore.
 

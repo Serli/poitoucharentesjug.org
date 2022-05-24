@@ -7,7 +7,7 @@ speakers: /speakers/anthony-quinault,/speakers/jerome-creignou,/speakers/alexand
 published: true
 ---
 
-**GWT**
+### GWT
 
 Anthony Quinault a présenté GWT (Google Web Toolkit).
 
@@ -16,7 +16,7 @@ Le déploiement en ligne d'une application dans l'appengine a fait l'objet d'une
 
 <a href="{{ "/assets/slides/PresentationGWTJUGV12.pdf" | relative_url }}">Lien vers les slides</a>
 
-**Flex**
+### Flex
 
 Jérôme Creignou a abordé la mise en place de la technologie Flex à la MAAF.
 
@@ -25,7 +25,7 @@ Une démonstration a conclu cette présentation.
 
 <a href="{{ "/assets/slides/prez-jug-flex-14-05-v2.pdf" | relative_url }}">Lien vers les slides</a>
 
-**Eclipse RCP**
+### Eclipse RCP
 
 Alexandre Borgoltz a présenté le concept de Bureau Electronique et l'adéquation particulière du framework Eclipse RCP à ce type de projet.
 
