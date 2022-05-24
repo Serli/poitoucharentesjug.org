@@ -3,8 +3,8 @@
 ---
 @charset "utf-8";
 
-.img-logo-home {
-    max-height: 150px;
+.logo-home {
+    display: none;
 }
 
 .speaker-card {
@@ -34,6 +34,13 @@
     font-family: arial;
 }
 
+.nav-logo {
+    height: 60px;
+    margin-right: 10px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
 // Override bootstrap variables here
 $font-family-sans-serif:      "Open Sans",system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $primary: #024D6F;
@@ -49,5 +56,14 @@ $body-bg: #f8f9fa;
     .youtube-video {
         height: 315px;
         width: 75%;
-    }    
+    }
+
+    .nav-logo {
+        display: none;
+    }
+
+    .logo-home {
+        display: block;
+        max-height: 150px;
+    }
 }
