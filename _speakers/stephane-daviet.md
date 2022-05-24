@@ -4,6 +4,6 @@ photo: stephane-daviet.jpg
 github_id: stephanedaviet
 ---
 
-Born in 1980, lead dev at MAIF.
+Né en 1980, lead dev à la MAIF.
 
-Versed mainly in Java and JavaScript with a good knowledge of Spring and React, but eagerly looking to other techs like Scala, Kotlin or Python. I like all what relates to coding but also to meta-coding, like thinking to why & how we should embrace technology both for ourselves or for others.
+Principalement versé en Java et Javascript, et dans les écosystèmes Spring et de React. Curieux et activement intéressé par d'autres écosystèmes techniques. J'aime tout ce qui touche au développement, mais également au méta-développement : tout ce qui nous amène à penser notre métier, son exercice et la place et le rôle de la technologie dans la société. Fervent défenseur de la philosophie open-source et utilisateur assidu de Linux. Très concerné par l'environnement et notre avenir sur cette belle planète.
