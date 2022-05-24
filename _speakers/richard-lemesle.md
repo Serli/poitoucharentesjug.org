@@ -1,0 +1,6 @@
+---
+name: Richard Lemesle
+photo: richard-lemesle.gif
+---
+
+Richard LEMESLE est architecte à la MAAF. A l'issue d'un DEA Informatique obtenu sur Nantes en 1994, il intègre la société Sodifrance au sein de laquelle deux activités majeures l'occupent. Il poursuit d'une part un Doctorat sur le thème "Techniques de Modélisation et de Méta-modélisation" et s'intéresse d'autre part très tôt à Java (dès la version 1.1 en 1996) pour devenir évangeliste sur le sujet et former les ingénieurs C++ et Smalltalk Sodifrance sur ces technologies. Il se spécialise ensuite sur les architectures logicielles autour de Java et l'industrialisation des développements que l'on connait aujourd'hui sous les termes MDA et MDD. Après 8 ans de prestation dans l'équipe Architecture de MAAF (années durant lesquelles il quitte Sodifrance pour rejoindre Ackermann Consulting), il se décide enfin à déménager sur Niort et intégrer cette société. Ne faisant plus de développement depuis quasiment 10 ans, c'est avec plaisir qu'il découvre TopCoder en 2009 (merci Linubik) et décide de reprendre le Java et le C++ à titre de loisir : son pseudo est rlemesle.
