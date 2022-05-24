@@ -5,6 +5,7 @@ permalink: /rencontres/ddd-pa-es-cqrs
 date: 2016-05-19 18:30:00 +0200
 place: /places/pepiniere
 speakers: /speakers/cedric-pineau,/speakers/arnaud-bailly
+youtube_id: Rhp7YMcBPao
 published: true
 ---
 
