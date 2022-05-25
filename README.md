@@ -4,6 +4,8 @@ Ce dépôt contient le code du site web du Poitou-Charentes JUG : https://www.po
 
 Basé sur Jekyll : https://jekyllrb.com/
 
+(Ancien site XWiki : http://poitoucharentesjug.cloud.xwiki.com)
+
 ## Ajout d'une rencontre
 
 * Créer un nouveau fichier markdown dans le dossier `_posts`, en respectant la convention de nommage `<yyyy-mm-dd>-<slug>.md`, où le slug correspond au nom de la conférence en minuscule (sans accents et caractères spéciaux), avec les espaces remplacés par des tirets (Par exemple, "Introduction à MongoDB" donne `introduction-a-mongodb`).
