@@ -2,7 +2,7 @@
 layout: event
 title:  "Redis du Clé/Valeur au Multi-Modèle"
 permalink: /rencontres/redis-du-cle-valeur-au-multi-modele
-date: 2020-01-23 18:30:00 +0200
+date: 2020-01-23 18:30:00
 place: /places/niort-tech
 speakers: /speakers/tugdual-grall-redis
 published: true
