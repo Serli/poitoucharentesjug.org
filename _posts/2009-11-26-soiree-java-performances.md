@@ -2,7 +2,7 @@
 layout: event
 title:  "Soirée Java & Performances"
 permalink: /rencontres/soiree-java-performances
-date: 2009-11-26 18:30:00 +0200
+date: 2009-11-26 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/stephane-routhiau
 published: true
