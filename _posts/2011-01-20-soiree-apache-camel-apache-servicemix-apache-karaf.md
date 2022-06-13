@@ -2,7 +2,7 @@
 layout: event
 title:  "Soirée Apache Camel / Apache ServiceMix et/ou Apache Karaf"
 permalink: /rencontres/soiree-apache-camel-apache-servicemix-apache-karaf
-date: 2011-01-20 18:30:00 +0200
+date: 2011-01-20 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/guillaume-nodet
 published: true

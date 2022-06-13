@@ -2,7 +2,7 @@
 layout: event
 title:  "SonarQube User Conférence - Séance de rattrapage"
 permalink: /rencontres/sonarqube-user-conference
-date: 2015-11-25 18:30:00 +0200
+date: 2015-11-25 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/julien-henry
 youtube_id: DbvtRQed-wE

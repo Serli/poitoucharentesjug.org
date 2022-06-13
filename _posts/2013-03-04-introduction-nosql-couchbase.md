@@ -2,7 +2,7 @@
 layout: event
 title:  "Soirée Introduction au NoSQL avec Couchbase"
 permalink: /rencontres/introduction-nosql-couchbase
-date: 2013-03-04 18:30:00 +0200
+date: 2013-03-04 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/tugdual-grall-mongodb
 published: true

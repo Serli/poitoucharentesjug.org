@@ -2,7 +2,7 @@
 layout: event
 title:  "Apache TomEE: Java EE (et plus) dans Apache Tomcat"
 permalink: /rencontres/apache-tomee
-date: 2014-10-30 18:30:00 +0200
+date: 2014-10-30 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/jean-louis-monteiro
 published: true

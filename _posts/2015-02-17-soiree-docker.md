@@ -2,7 +2,7 @@
 layout: event
 title:  "Soirée Docker"
 permalink: /rencontres/soiree-docker
-date: 2015-02-17 18:30:00 +0200
+date: 2015-02-17 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/bruno-pommerel,/speakers/stephane-daviet-serli
 youtube_id: C2of7Ry-PDs

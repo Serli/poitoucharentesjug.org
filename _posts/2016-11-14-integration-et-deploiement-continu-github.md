@@ -2,7 +2,7 @@
 layout: event
 title:  "Intégration et déploiement continu @ GitHub"
 permalink: /rencontres/integration-et-deploiement-continu-github
-date: 2016-11-14 18:30:00 +0200
+date: 2016-11-14 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/alain-helaili
 published: true

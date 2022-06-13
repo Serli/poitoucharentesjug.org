@@ -2,7 +2,7 @@
 layout: event
 title:  "Clojure Kisses"
 permalink: /rencontres/clojure-kisses
-date: 2012-12-19 18:30:00 +0200
+date: 2012-12-19 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/cedric-pineau-code-lutin
 published: true

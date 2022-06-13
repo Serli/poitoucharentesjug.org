@@ -2,7 +2,7 @@
 layout: event
 title:  "Des WebSockets avec SimpleWeb4j"
 permalink: /rencontres/websockets-simpleweb4j
-date: 2014-11-27 18:30:00 +0200
+date: 2014-11-27 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/yan-bonnel
 youtube_id: NmVkFpDR95A

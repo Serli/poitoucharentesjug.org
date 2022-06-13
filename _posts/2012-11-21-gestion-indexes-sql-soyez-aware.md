@@ -2,7 +2,7 @@
 layout: event
 title:  "Gestion des indexes SQL : Soyez AWARE !"
 permalink: /rencontres/gestion-indexes-sql-soyez-aware
-date: 2012-11-21 18:30:00 +0200
+date: 2012-11-21 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/antonio-gomes-rodrigues
 published: true

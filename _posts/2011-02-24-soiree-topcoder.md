@@ -2,7 +2,7 @@
 layout: event
 title:  "Soirée TopCoder"
 permalink: /rencontres/soiree-topcoder
-date: 2011-02-24 18:30:00 +0200
+date: 2011-02-24 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/vincent-lucquiaud,/speakers/bruno-thomas,/speakers/bruno-puchault,/speakers/richard-lemesle
 published: true

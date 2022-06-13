@@ -2,7 +2,7 @@
 layout: event
 title:  "Soirée Easyant & Apache Ivy"
 permalink: /rencontres/soiree-easyant-apache-ivy
-date: 2009-12-17 18:30:00 +0200
+date: 2009-12-17 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/jerome-benois,/speakers/jean-louis-bodart,/speakers/xavier-hanin
 published: true

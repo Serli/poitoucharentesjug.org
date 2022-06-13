@@ -2,7 +2,7 @@
 layout: event
 title:  "Pourquoi vous devriez utiliser Groovy"
 permalink: /rencontres/pourquoi-utiliser-groovy
-date: 2015-01-20 18:30:00 +0200
+date: 2015-01-20 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/cedric-champeau
 youtube_id: 4M3B3YxIaSc

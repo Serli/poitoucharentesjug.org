@@ -2,7 +2,7 @@
 layout: event
 title:  "MongoDB et Elastic, meilleurs ennemis ?"
 permalink: /rencontres/mongodb-elasticsearch-meilleurs-ennemis
-date: 2016-03-10 18:30:00 +0200
+date: 2016-03-10 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/sebastien-prunier-serli,/speakers/chris-woodrow
 published: true

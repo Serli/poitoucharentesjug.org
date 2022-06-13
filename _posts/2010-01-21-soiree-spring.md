@@ -2,7 +2,7 @@
 layout: event
 title:  "Soirée Spring"
 permalink: /rencontres/soiree-spring
-date: 2010-01-21 18:30:00 +0200
+date: 2010-01-21 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/florent-ramiere
 published: true

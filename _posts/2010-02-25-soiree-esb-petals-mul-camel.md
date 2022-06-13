@@ -2,7 +2,7 @@
 layout: event
 title:  "Soirée ESB : Petals ESB, Mule, Camel"
 permalink: /rencontres/soiree-esb-petals-mule-camel
-date: 2010-02-25 18:30:00 +0200
+date: 2010-02-25 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/gael-blondelle,/speakers/jacques-cayuela,/speakers/stephane-routhiau
 published: true

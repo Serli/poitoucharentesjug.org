@@ -2,7 +2,7 @@
 layout: event
 title:  "I don't always write Reactive applications, but when I do, it runs on Raspberry Pi"
 permalink: /rencontres/reactive-raspberry
-date: 2015-03-19 18:30:00 +0200
+date: 2015-03-19 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/mathieu-ancelin,/speakers/alexandre-delegue
 youtube_id: _3LLIsJgZvA

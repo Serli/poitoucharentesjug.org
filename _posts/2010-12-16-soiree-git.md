@@ -2,7 +2,7 @@
 layout: event
 title:  "Soirée Git"
 permalink: /rencontres/soiree-git
-date: 2010-12-16 18:30:00 +0200
+date: 2010-12-16 18:30:00 +0100
 speakers: /speakers/david-gageot
 published: true
 ---

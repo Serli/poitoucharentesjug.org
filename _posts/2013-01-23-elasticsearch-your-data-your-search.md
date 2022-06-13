@@ -2,7 +2,7 @@
 layout: event
 title:  "Elasticsearch : your data, your search"
 permalink: /rencontres/elasticsearch-your-data-your-search
-date: 2013-01-23 18:30:00 +0200
+date: 2013-01-23 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/david-pilato
 published: true

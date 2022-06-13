@@ -2,7 +2,7 @@
 layout: event
 title:  "Introduction à MongoDB"
 permalink: /rencontres/introduction-a-mongodb
-date: 2014-03-13 18:30:00 +0200
+date: 2014-03-13 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/tugdual-grall-mongodb
 published: true

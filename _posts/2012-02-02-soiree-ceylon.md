@@ -2,7 +2,7 @@
 layout: event
 title:  "Soirée Ceylon avec Gavin King et David Festal"
 permalink: /rencontres/soiree-ceylon
-date: 2012-02-02 18:30:00 +0200
+date: 2012-02-02 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/gavin-king,/speakers/david-festal
 published: true

@@ -2,7 +2,7 @@
 layout: event
 title:  "Cloud Patterns"
 permalink: /rencontres/cloud-patterns
-date: 2014-01-23 18:30:00 +0200
+date: 2014-01-23 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/nicolas-de-loof
 published: true

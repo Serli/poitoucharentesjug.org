@@ -2,7 +2,7 @@
 layout: event
 title:  "Soirée retours de Devoxx et GlassFish : Application versioning et rolling upgrade en haute disponibilité"
 permalink: /rencontres/retour-devoxx-glassfish
-date: 2011-11-30 18:30:00 +0200
+date: 2011-11-30 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/kevin-pollet,/speakers/mathieu-ancelin,/speakers/marian-muller
 published: true

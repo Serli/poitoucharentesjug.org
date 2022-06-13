@@ -2,7 +2,7 @@
 layout: event
 title:  "Soirée NACA"
 permalink: /rencontres/soiree-naca
-date: 2010-03-25 18:30:00 +0200
+date: 2010-03-25 18:30:00 +0100
 speakers: /speakers/didier-durand,/speakers/pierre-jean-ditscheid
 published: true
 ---

@@ -2,7 +2,7 @@
 layout: event
 title:  "Soirée Celerio et Springfuse"
 permalink: /rencontres/soiree-celerio-springfuse
-date: 2010-11-29 18:30:00 +0200
+date: 2010-11-29 18:30:00 +0100
 speakers: /speakers/florent-ramiere
 published: true
 ---

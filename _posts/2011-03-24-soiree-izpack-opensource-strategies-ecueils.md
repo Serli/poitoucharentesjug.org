@@ -2,7 +2,7 @@
 layout: event
 title:  "Soirée IzPack et Communautés opensource, stratégies et écueils"
 permalink: /rencontres/soiree-izpack-opensource-strategies-ecueils
-date: 2011-03-24 18:30:00 +0200
+date: 2011-03-24 18:30:00 +0100
 place: /places/pepiniere
 speakers: /speakers/julien-ponge
 published: true
