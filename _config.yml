@@ -22,6 +22,9 @@ description: Le Poitou-Charentes Java User Group permet aux acteurs et utilisate
 baseurl: ""
 url: "https://www.poitoucharentesjug.org/"
 
+# Set timezone
+timezone: Europe/Paris
+
 # Custom collections
 collections:
   - speakers

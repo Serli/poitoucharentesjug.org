@@ -2,7 +2,7 @@
 layout: event
 title:  "L’informatique verte : un oxymore ?"
 permalink: /rencontres/l-informatique-verte-un-oxymore
-date: 2022-06-16 18:30:00 Europe/Paris
+date: 2022-06-16 18:30:00 +0200
 place: /places/ima
 speakers: /speakers/stephane-daviet
 published: true
