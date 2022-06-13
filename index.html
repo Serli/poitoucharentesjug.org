@@ -35,7 +35,7 @@ layout: default
             {% assign speakers = site.speakers | where_exp:"speaker", "speakers_ids contains speaker.id" %}
             <li>
                 <a href="{{ future_event.url | relative_url }}">
-                    <span class="event-date">[{{ future_event.date | timezone:"Europe/Paris" | date: "%d/%m/%Y à %Hh%M" }}]</span> <strong>{{ future_event.title }}</strong> par {{ speakers | map: "name" | join: " et "}}
+                    <span class="event-date">[{{ future_event.date | date: "%d/%m/%Y à %Hh%M" }}]</span> <strong>{{ future_event.title }}</strong> par {{ speakers | map: "name" | join: " et "}}
                 </a>
             </li>
         {% endfor %}
