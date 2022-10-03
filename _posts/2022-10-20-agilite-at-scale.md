@@ -1,6 +1,6 @@
 ---
 layout: event
-title:  "L'agilité "at scale""
+title:  "L'agilité at scale"
 permalink: /rencontres/agilite-at-scale
 date: 2022-10-20 18:30:00 +0200
 place: /places/niort-tech
