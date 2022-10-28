@@ -16,20 +16,20 @@ Nous avions lancé un appel auprès de vous pour ouvrir la scène du Poitou JUG 
 
 👇 Découvrez le programme 👇 
 
-# Crash test #1337: Apprentissage de la programmation fonctionnelle
+## Crash test #1337: Apprentissage de la programmation fonctionnelle
 **Par Corentin Moreau**
 
 Dans ce quickie, je vais vous raconter comment j’en suis arrivé à apprendre la programmation fonctionnelle : délire de développeur ? Pari perdu ?
 Vous découvrirez comment j’ai abordé le sujet, quels obstacles j’ai rencontrés et je vous donnerai quelques pistes pour appréhender ce paradigme encore trop méconnu.
 
-# 100% de couverture ? On peut faire mieux avec le mutation testing
+## 100% de couverture ? On peut faire mieux avec le mutation testing
 **Par Alexis Briard**
 
 Tester c'est douter, mais je doute, donc je teste. Et je doute tellement que 100% de couverture de test ne sont plus suffisants. 
 En effet, même si l'outil de couverture indique 100%, il est possible que certains cas ne soient toujours pas couverts. 
 Mais pas de panique, le mutation testing va nous aider à les trouver.
 
-# Développer nos IHM avec la TDD et Storybook
+## Développer nos IHM avec la TDD et Storybook
 **Par Alexandre Pacaud**
 
 L'idée est de vous partager une petite méthode de travail sur les IHM afin de pouvoir travailler à plusieurs sur les mêmes interfaces via storybook et de tester l'ensemble du comportement du front via la TDD. 
