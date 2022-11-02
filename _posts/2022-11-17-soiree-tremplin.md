@@ -10,9 +10,9 @@ published: true
 
 Bonjour à toutes et tous !
 
-Nous avions lancé un appel auprès de vous pour ouvrir la scène du Poitou JUG à l'occasion d'une soirée quickies 🚀 (présentations de 15 minutes).
+Nous avions lancé un appel auprès de vous pour ouvrir la scène du Poitou JUG à l'occasion d'une soirée tremplin 🚀. 
 
-**3 d'entre vous ont répondu présents ☝️**  et nous sommes heureux d'accueillir **Corentin Moreau**, **Alexis Briard** et **Alexandre Pacaud** 🤗 ! 
+**3 d'entre vous ont répondu présents ☝️**  et nous sommes heureux d'accueillir **Corentin Moreau**, **Alexis Briard** et **Alexandre Pacaud** 🤗 ! Ils nous présenteront des quickies (présentations de 15 minutes).
 
 👇 Découvrez le programme 👇 
 
