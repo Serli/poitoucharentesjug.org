@@ -1,7 +1,7 @@
 ---
 layout: event
-title:  "Soirée Quickies !"
-permalink: /rencontres/soiree-quickies-2022
+title:  "Soirée Tremplin !"
+permalink: /rencontres/soiree-tremplin-2022
 date: 2022-11-17 18:30:00 +0100
 place: /places/niort-tech
 speakers: /speakers/corentin-moreau,/speakers/alexis-briard,/speakers/alexandre-pacaud
