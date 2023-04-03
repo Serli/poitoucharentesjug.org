@@ -1,6 +1,6 @@
 ---
 name: Philippe Charrière
-photo: philippe-charriere.jpg
+photo: philippe-charriere.png
 twitter_id: k33g_org
 ---
 
