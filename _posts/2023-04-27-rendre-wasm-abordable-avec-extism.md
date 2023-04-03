@@ -5,7 +5,7 @@ permalink: /rencontres/rendre-wasm-abordable-avec-extism
 date: 2023-04-27 18:30:00 +0200
 place: /places/serli-niort
 speakers: /speakers/philippe-charriere
-published: false
+published: true
 ---
 
 WebAssembly est déjà "production ready" dans le navigateur. Certaines de ses qualités rendent son utilisation "hors navigateur" très intéressante (rapidité, efficacité, ...), ce qui a donné naissance à une nouvelle spécification (WASI) décrivant comment du code WASM doit interagir dans un contexte pas forcément web (plugins, CLI, ...).
