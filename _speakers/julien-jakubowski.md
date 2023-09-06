@@ -1,4 +1,4 @@
-  ---
+---
 name: Julien Jakubowski
 photo: julien-jakubowski.jpg
 twitter_id: jak78
