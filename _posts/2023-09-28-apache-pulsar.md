@@ -8,11 +8,12 @@ speakers: /speakers/julien-jakubowski
 published: true
 ---
 
-Messaging et streaming scalables avec Apache Pulsar
-Enfin une alternative à Kafka !
+Messaging et streaming scalables avec Apache Pulsar, enfin une alternative à Kafka !
 Par Julien Jakubowski
 
-Aujourd'hui, quand on pense à créer des applications event-driven et temps réel, les mots qui viennent spontanément sont : RabbitMQ, ActiveMQ ou encore Kafka. Ce sont les solutions qui dominent ce paysage. Mais pour créer des applications événementielles exigeantes, il y a une alternative qui monte : Apache Pulsar.
+Aujourd'hui, quand on pense à créer des applications event-driven et temps réel, les mots qui viennent spontanément sont : RabbitMQ, ActiveMQ ou encore Kafka. Ce sont les solutions qui dominent ce paysage. 
+
+Mais pour créer des applications événementielles exigeantes, il y a une alternative qui monte : Apache Pulsar.
 
 Après un bref rappel des concepts du messaging, vous découvrirez les caractéristiques-clé de Pulsar. 
 Vous apprendrez notamment :
