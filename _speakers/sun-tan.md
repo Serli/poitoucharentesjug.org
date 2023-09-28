@@ -1,7 +1,10 @@
 ---
 name: Sun Tan
-photo: sun-tan.jpg
+photo: sun-tan.jpeg
 twitter_id: __sunix_
 ---
 
-Sun is working as Java Developer at Serli. As Developer and Team leader, he is working with his team on the SaaS developer environment Codenvy. So far, his team is involved in the database tooling development, the integration of Codemirror and Orion editor and a Codenvy Eclipse plugin. He is currently working on the integration of Eclipse Flux to Codenvy.
+Sun est Senior Software Engineer chez Red Hat. 
+Il a le plus beau métier du monde : Il développe des outils pour les développeurs (et donc pour lui-même). 
+Il a notamment contribué aux projets Eclipse Che, Eclipse JKube et le client Java pour Kubernetes Fabric8. 
+Pendant son temps libre, il co-anime le JUG de Paris et brasse sa bière dans sa cuisine.
