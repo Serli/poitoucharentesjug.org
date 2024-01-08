@@ -2,7 +2,7 @@
 layout: event
 title:  "Base de données multimodèle par l'exemple avec Couchbase, Spring et Conduit"
 permalink: /rencontres/bdd-multimodele
-date: 2024-01-18 18:30:00 +0200
+date: 2024-01-18 18:30:00 +0100
 place: /places/serli-niort
 speakers: /speakers/laurent-doguin
 published: true
