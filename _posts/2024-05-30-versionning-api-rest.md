@@ -2,7 +2,7 @@
 layout: event
 title:  "Le versionning des APIs REST : dans la vraie vie, on fait comment ?"
 permalink: /rencontres/versionning-api-rest
-date: 2024-05-30 18:30:00 
+date: 2024-05-30 18:30:00 +0200
 place: /places/serli-niort
 speakers: /speakers/alexandre-touret
 published: true
